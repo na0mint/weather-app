@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: whether-app
+integration:
+  weather:
+    yandex:
+      url: https://api.weather.yandex.ru/v2/forecast
+      key: ${YANDEX_WEATHER_API_KEY}
